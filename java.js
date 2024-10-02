@@ -1,6 +1,7 @@
 alert("erro!");
 let numeroSecreto = 6;
 let chute;
+let tentativa = 1;
 
 
 while(chute != numeroSecreto){
