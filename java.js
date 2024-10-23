@@ -16,7 +16,12 @@ alert(" numero Secreto é maior que ${chute}");
 
 }else{
 alert("numero secreto é menor que ${chute}");
-
+}
 }
 }tentativa++;
+
+if     (tentativas>1){
+alert("isso ai voce descobriu um numero secreto ${numeroSecreto} com ${tentativas} tentativas ");
+}
+else {alert("isso ai voce descobriu o numero secreto ${numeroSecreto} com ${tentativas} tentativa ");
 }
